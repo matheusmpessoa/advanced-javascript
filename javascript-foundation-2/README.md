@@ -25,14 +25,18 @@ Existem declarações de escopo global, encadeadas em funções e strict mode.
 Função declarada que não vai estar acessível em linhas de código anteriores à linha de execução atual. Só está disponivel em runtime, ou seja, no momento em que a linha for corrida pelo código.
 ```js
 alert(foo());
-var foo = function() { return 5; }
+var foo = function() { 
+  return 5;
+}
 ```
 
 ### Function declaration
 É uma função que está sempre disponível.
 ```js
 alert(foo());
-function foo() { return 5; }
+function foo() {
+  return 5;
+}
 ```
 
 ## Spread operator
