@@ -5,8 +5,8 @@ Explicações e resoluções em seções separadas.
 
 ## Seções
 * Introduction
-* JavaScript Foundation
-* JavaScript Foundation 2
+* [JavaScript Foundation](javascript-foundation)
+* [JavaScript Foundation 2](javascript-foundation-2)
 * Types in JavaScript
 * The 2 Pillars: Closures and Prototypal Inheritance
 * Object Oriented Programming

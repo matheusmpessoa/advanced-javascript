@@ -18,6 +18,8 @@ A engine consiste de dois principais componentes:
 - Memory Heap — é onde a alocação de memória acontece.
 - Call Stack — onde seus stack frames(quadros de pilha) estão enquanto seu código e executado, controlando quais funcoes estao atualmente ativas e sendo processadas.
 
+Fazem parte da engine: eval(), arguments, for in, with, delete, hidden classes and inline caching.
+
 ## Stack Overflow
 Stack Overflow ocorre quando existe uma função recursiva (uma função que chama ela mesma) sem um ponto de saída. Se o numero de chamadas crescer ao ponto de exceder a quantidade de memoria alocada, um erro de Stack Overflow (estouro da pilha) ocorrerá.
 
