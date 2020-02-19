@@ -74,7 +74,18 @@ No JavaScript se usa a palavra-chave *this* como um atalho, uma referência a el
 
 Todas as funções em JavaScript têm propriedades, assim como os objetos. Quando uma função é executada, ela obtém a propriedade *this* — uma variável com o valor do objeto que invoca a função na qual *this* é usado.
 
-*this* pode ser usado em callback, closure, atribuído a uma variável e métodos emprestados.
+*this* pode ser usado em:
+* callback
+* closure
+* atribuído a uma variável
+* métodos emprestados
+
+### Window
+O objeto window representa uma janela que contém um elemento DOM; a propriedade document aponta para o documento DOM document carregado naquela janela.
+
+No contexto global, *this* é igual *window*.
+
+*this.window === window* é igual a *this === window*
 
 ## call() apply() bind()
 

@@ -1,5 +1,21 @@
 # JavaScript Foundation
 
+## História
+JavaScript foi criado por Brendan Eich.
+
+O nome oficial do JavaScript é ECMAScript. O novo nome foi necessário porque existia posse da Oracle (na época se chamava Sun) sobre o nome.
+
+teve sua primeira versão lançada em junho de 1997 (versão criada em 10 dias).
+
+Tem como base o Scheme(funcional) e o Java(tipos e valores primitivos).
+
+## Recursos
+Na maioria das linguagens você aprende os recursos do idioma. No JavaScript, você geralmente aprende padrões.
+
+Muito por conta de suas influências, o JavaScript permite um estilo de programação funcional (funções de ordem superior; mapa embutido, redução etc.) e programação orientada a objetos (objetos, herança).
+
+---
+
 ## Interpretador
 * Transforma uma declaracao por vez.
 * Não intermedia o object code gerado, portanto é eficiente na memória.
