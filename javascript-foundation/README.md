@@ -16,19 +16,26 @@ Muito por conta de suas influências, o JavaScript permite um estilo de programa
 
 ---
 
-## Interpretador
-* Transforma uma declaracao por vez.
+## Compilado x Interpretado
+* *SourceCode*: código original (geralmente digitado por um ser humano em um computador)
+* *Translation*: convertendo código-fonte em algo que um computador possa ler (ou seja, código de máquina)
+* *RunTime*: Período em que o programa está executando comandos (após a compilação, se compilado)
+* *Compilado*: código traduzido antes do tempo de execução
+* *Interpretado*: código traduzido em tempo real, durante a execução
+
+### Interpretado
+* Transforma uma declaração por vez.
 * Não intermedia o object code gerado, portanto é eficiente na memória.
 * Continua traduzindo o programa até o primeiro erro ser encontrado, parando a aplicacão.
 * Linguagens como Ruby, PHP e Python.
 
-## Compilador
+### Compilado
 * Scaneia o programa inteiro e traduz o mesmo em código para máquina.
 * Leva mais tempo para analisar o código fonte, mas com uma execucao mais rápida.
 * Linguagens como C, C++ utilizam compiladores.
 
 ## Engine JavaScript
-A engine mais popular e a V8 do Google. Utilizada dentro do Google Chrome e Node.
+A engine mais popular é a V8 do Google. Utilizada dentro do Google Chrome e Node.
 
 A engine consiste de dois principais componentes:
 - Memory Heap — é onde a alocação de memória acontece.
@@ -44,7 +51,6 @@ A função abaixo vai ser executada até o navegador estourar o limite de chamad
 function inception() {
     inception();
 }
-
 inception();
 ```
 

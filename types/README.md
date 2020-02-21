@@ -62,3 +62,33 @@ var x = '3' * '4';
 ```
 
 [Comparações de igualdade e uniformidade - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Equality_comparisons_and_sameness)
+
+## == e ===
+Strict equality (===) and strict inequality (!==) consideram apenas valores que têm o mesmo tipo iguais.
+A igualdade normal (==) e a desigualdade (! =) tentam converter valores de tipos diferentes antes de compará-los como com a igualdade estrita.
+
+## Static vs dynamic typing
+* *Static*: tipos verificados antes do tempo de execução.
+* *Dynamic*: tipos verificados em tempo real, durante a execução.
+
+Lnguagem compilada terá melhor desempenho em tempo de execução se for digitada estaticamente, porque o conhecimento dos tipos permite a otimização do código da máquina.
+
+Linguagens de tipo estático têm melhor desempenho em tempo de execução intrinsecamente por não ter a necessidade de verificar tipos dinamicamente durante a execução, é verificado antes de executar.
+
+### Linguagens dinâmicas
+* JavaScript
+* PHP
+* Ruby
+* Python
+* Erlang
+
+### Linguagens estáticas
+* Java
+* Haskell
+* C
+* C++
+
+## Weakly vs strongly typing
+Static typing é onde o tipo é vinculado à variável. Os tipos são verificados no momento da compilação.
+
+Dynamic typing é onde o tipo está vinculado ao valor. Os tipos são verificados no tempo de execução.
