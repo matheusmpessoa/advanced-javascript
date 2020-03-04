@@ -12,6 +12,8 @@ Também conhecido como *scope*, lexical context determina o jeito que a informa�
 
 Envolve o conceito da diferença de uso do *let* e *var*.
 
+Arrow function é *lexical scope*.
+
 ## Hoisting
 Hoisting é o comportamento de mover declarações (variáveis ou funções) para o topo do escopo.
 
