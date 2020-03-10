@@ -91,6 +91,15 @@ No contexto global, *this* é igual *window*.
 
 ## call() apply() bind()
 
+As funções apply() e call() são similares. A diferença está na assinatura dos métodos, onde call aceita uma lista de argumentos e apply uma array de argumentos:
+```js
+call(thisArg, arg1, arg2, ...)
+
+apply(thisArg, [args])
+```
+
+Ambas determinam o contexto que uma função será executada. Ao passarmos um objeto em thisArg, este será o this específico a ser usado numa determinada função. 
+
 ### call()
 Chama o método de um objeto, substituindo outro objeto pelo objeto atual.
 
