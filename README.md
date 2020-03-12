@@ -13,7 +13,7 @@ Conteúdo do repositório apoiado no curso [Advanced JavaScript concepts - Udemy
 * [Types in JavaScript](types)
 * [The 2 Pillars: Closures and Prototypal Inheritance](closures)
 * [Object Oriented Programming](oop)
-* Functional Programming
+* [Functional Programming](functional-programming)
 * OOP vs FP
 * Asynchronous JavaScript
 * Modules in JavaScript
