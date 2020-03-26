@@ -59,3 +59,5 @@ Quando dados são imutáveis, eles não sofrem alterações depois de serem cria
 
 Se quiser modificar um objeto imutável, ao invés de tentar modificar o seu valor, criamos um novo objeto com um novo valor. Assim, o antigo objeto imutável mantém seu estado inalterado.
 
+## Currying
+Currying é o processo de transformar uma função que espera vários argumentos em uma função que espera um único argumento e retorna outra função curried/transformada.

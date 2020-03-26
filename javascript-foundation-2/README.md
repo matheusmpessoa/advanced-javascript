@@ -108,6 +108,3 @@ Chama a função, substituindo o objeto especificado pelo valor this da função
 
 ### bind()
 Para uma determinada função, cria uma função vinculada que possui o mesmo corpo que a função original. O objeto this da função vinculada está associado ao objeto especificado e possui os parâmetros iniciais especificados.
-
-## Currying
-Currying é o processo de transformar uma função que espera vários argumentos em uma função que espera um único argumento e retorna outra função curried.
