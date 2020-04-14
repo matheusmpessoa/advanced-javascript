@@ -15,7 +15,7 @@ Conteúdo do repositório apoiado no curso [Advanced JavaScript concepts - Udemy
 * [Object Oriented Programming](oop)
 * [Functional Programming](functional-programming)
 * OOP vs FP
-* Asynchronous JavaScript
+* [Asynchronous JavaScript](asynchronous-javascript)
 * Modules in JavaScript
 * Error Handling
 * Thank you
