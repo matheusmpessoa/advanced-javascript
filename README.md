@@ -3,8 +3,8 @@ Curso de JavaScript avançado.
 
 Anotações, explicações e scripts separados em diferentes seções.
 
-Conteúdo do repositório apoiado no curso [Advanced JavaScript concepts - Udemy](https://www.udemy.com/course/advanced-javascript-concepts/) e no livro
-[Speaking JavaScript - O'Reilly](https://learning.oreilly.com/library/view/speaking-javascript/9781449365028/)
+Conteúdo do repositório apoiado no curso [Advanced JavaScript concepts - Udemy](https://www.udemy.com/course/advanced-javascript-concepts/). Complemento das explicações encontradas no livro
+[Speaking JavaScript - O'Reilly](https://learning.oreilly.com/library/view/speaking-javascript/9781449365028/), artigos e [documentação MDN - Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript).
 
 ## Seções
 * Introduction
@@ -16,7 +16,7 @@ Conteúdo do repositório apoiado no curso [Advanced JavaScript concepts - Udemy
 * [Functional Programming](functional-programming)
 * OOP vs FP
 * [Asynchronous JavaScript](asynchronous-javascript)
-* Modules in JavaScript
+* [Modules in JavaScript](modules)
 * Error Handling
 * Thank you
 * Data Structures in JavaScript
