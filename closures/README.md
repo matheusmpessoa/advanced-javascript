@@ -1,7 +1,7 @@
 # Closures and protoypal inheritance
 
 ## Escopo léxico
-O escopo léxico é baseado nas variáveis e blocos de escopo definidos em tempo de escrita do código. Logo, ele é definido em tempo de compilação.
+O escopo léxico é baseado nas variáveis e blocos de escopo definidos em tempo de escrita do código. Logo, ele é definido em tempo de compilação. Assim como blocos e funções podem ser inseridos dentro de outros blocos ou funções, o mesmo vale para escopos. 
 
 Exemplo de dois escopos, o definido pela função soma e o global. Ao chamar a função, a engine encontra dentro do escopo da função soma apenas a variável b, como ela também necessita do valor da variável a, uma busca é feita no escopo externo, no caso, o global. Encontrado o valor, a operação segue normalmente, retornando o valor da soma das variáveis.
 
@@ -15,7 +15,7 @@ console.log(soma());    // 5
 ```
 
 ## Closures
-Closure é a forma de fazer com que as variáveis dentro de uma função sejam privadas e persistentes. É uma regra escopada dentro da função.
+Closure é a forma de fazer com que as variáveis dentro de uma função sejam privadas e persistentes. É uma regra escopada dentro da função que referencia variáveis livres no contexto léxico. Uma clausura ocorre normalmente quando uma função é declarada dentro do corpo de outra, e a função interior referencia variáveis locais da função exterior. Em tempo de execução, quando a função exterior é executada, então uma clausura é formada, que consiste do código da função interior e referências para quaisquer variáveis no âmbito da função exterior que a clausura necessita.
 
 ```js
 function pai(){
@@ -35,7 +35,9 @@ contador();    // 3
 
 A função filho possui uma referência ao escopo da função pai, e a essa referência nós damos o nome de closure.
 
-o escopo léxico faz com que a função filho tenha acesso às variáveis definidas pela função pai. A função filho é retornada como um valor (no caso, retornamos a função à qual filho faz referência).
+O escopo léxico faz com que a função filho tenha acesso às variáveis definidas pela função pai. A função filho é retornada como um valor (no caso, retornamos a função à qual filho faz referência).
+
+Exemplo: módulos são estruturas de código que fazem bom uso das closures.
 
 ## High order functions
 Higher-order functions são funções que assumem outras funções como argumentos ou retornam funções como seus resultados.
