@@ -5,6 +5,29 @@ O contexto de execução - execution context descreve o conceito no qual o ambie
 
 Existem tres tipos de código ECMAScript: *global code*, *function code* e *eval code*. Todos os tres tipos possuem uma relação que formam a stack de execução - *execution stack*.
 
+## Arrow function
+O arrow function possui uma característica menos verbosa de escrever uma função e possui o escopo léxico.
+
+O escopo léxico permite acessar propriedades sem variar o contexto.
+
+Retorno: Não é necessário declarar explicitamente o retorno quando temos um bloco apenas de código, a última expressão realizada vai ser o retorno da arrow function.
+```js
+const soma = (numero1, numero2) => numero1 + numero2; 
+soma(3,7) // 10
+```
+
+Nome: As Arrows functions ganham nome da variável atribuida quando da criação.
+```js
+const arrow = () => {};
+arrow.name; // arrow
+```
+
+Construtor: Não é possível criar construtores com Arrow function.
+```js
+const Construtor = () => {};
+new Construtor(); // Constructor is not a constructor
+```
+
 ## Lexical environment
 Lexical environment é apenas um conceito lógico.
 
